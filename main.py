@@ -26,7 +26,7 @@ tutor = """
 """
 
 template = """
-Thank you for Support 🐧 Linux-Project 🐧
+Terima Kasih Telah Menggunakan String Session @Xflicks 
             
 <code>STRING_SESSION</code>: <code>{}</code>
 
