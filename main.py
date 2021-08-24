@@ -20,7 +20,7 @@ if select == "1":
         str_session = app.export_session_string()
         app.send_message(
             "me",
-            f"#HU_STRING_SESSION\n\n```{str_session}\n\nGenerate using @UserLazyXBot String Session Generator"
+            f"#HU_STRING_SESSION\n\n```{str_session}\n\nGenerate using @Xflicks String Session Generator"
         )
         print("\nDone!, please check your Telegram Saved Messages ")
 
