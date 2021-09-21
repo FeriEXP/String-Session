@@ -1,4 +1,4 @@
-print("================= //Feri Ganteng// ================")
+print("================= // WELLCOME // ================")
 print("""String Session Generator for Telethon and Pyrogram
               (Made by @Xflicks)\n""")
 
@@ -20,7 +20,7 @@ if select == "1":
         str_session = app.export_session_string()
         app.send_message(
             "me",
-            f"#HU_STRING_SESSION\n\n`{str_session}`\n\nGenerate using @Xflicks String Session Generator"
+            f"#HU_STRING_SESSION\n\n`{str_session}`\n\nGenerate using String Session Generator Dont forget to join @AnosSupport"
         )
         print("\nDone!, please check your Telegram Saved Messages ")
 
@@ -34,7 +34,7 @@ elif select == "2":
         str_session = client.session.save()
         client.send_message(
             "me",
-            f"#STRING_SESSION\n\n`{str_session}`\n\nGenerate using @Xflicks String Session Generator"
+            f"#STRING_SESSION\n\n`{str_session}`\n\nGenerate using String Session Generator Dont forget to join @AnosSupport"
         )
         print("\nDone!, please check your Telegram Saved Messages ")
 
